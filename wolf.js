@@ -1,7 +1,7 @@
 class Wolf{
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./wolfsheet1walkright.png"), 0, 0, 64, 30, 5, 1.25);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./wolfsheet1walkright.png"), 0, 0, 64, 30, 5, 0.2);
 
         this.x = 0;
         this.y = 0;
